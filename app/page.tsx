@@ -11,6 +11,7 @@ import Formacao from "./Components/Formacao";
 import TeamTH from "./Components/TeamTH";
 import MoreTeamTH from "./Components/MoreTeamTH";
 import Footer from "./Components/Footer";
+import Contact from "./Components/Contact";
 
 export default function Home() {
 
@@ -46,6 +47,7 @@ export default function Home() {
       <TeamTH />
       <MoreTeamTH />
       <Experience />
+      <Contact />
       <Footer />
       {/* <Formacao /> */}
     </div>
