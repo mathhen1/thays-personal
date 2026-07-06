@@ -1,4 +1,4 @@
-import { Menu } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { useState } from "react"
 
 const NavBar = () => {
@@ -39,10 +39,7 @@ const NavBar = () => {
                 <div className="absolute top-0 right-0 w-8/12 
                 flex flex-col items-center gap-2
                 border-2 bg-purple-400 h-screen">
-                    <button className="p-2 font-black flex-none pr-8"
-                        onClick={handleMenu}>
-                        <Menu />
-                    </button>
+                    <X onClick={handleMenu} className="mt-2"/>
                     <span className="w-3/4 border"></span>
                     <img src="thays-full.jpg" alt="" className="rounded-full w-1/2" />
                     <a href="#home" onClick={() => setMenuIsOpen(false)}>
