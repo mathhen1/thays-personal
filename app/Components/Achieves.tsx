@@ -1,3 +1,5 @@
+import { linkWppSimple } from "../Utils/links"
+
 const Achieves = () => {
 
     const card = `w-11/12 flex overflow-x-auto flex-shrink-0 
@@ -55,10 +57,11 @@ const Achieves = () => {
                 O que está esperando?
             </h1>
 
-            <h1 className="reveal opacity-0 w-10/12 tracking-wider text-base font-black text-center 
+            <a href={linkWppSimple} target="_blank"
+            className="reveal opacity-0 w-10/12 tracking-wider text-base font-black text-center 
             rounded-4xl border p-3 bg-emerald-500 text-white">
                 Entre em contato
-            </h1>
+            </a>
 
             <div className="reveal opacity-0 flex flex-col items-center bg-purple-100">
                 <span className="reveal opacity-0 w-full border-b border-purple-500"></span>
