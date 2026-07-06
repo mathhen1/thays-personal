@@ -11,7 +11,7 @@ const AboutMeMore = () => {
             <div className="flex flex-col items-center p-2 gap-3 w-full text-center font-semibold tracking-tighter">
 
                 <h3 className="reveal opacity-0 text-sm p-1 w-11/12">
-                    Meu nome é Thays Helena, tenho 27 anos, sou bacharel em Educação Física e especialista em exercício clínico.
+                    Meu nome é Thays Helena, tenho 28 anos, sou bacharel em Educação Física e especialista em exercício clínico.
                 </h3>
                 <h4 className="reveal opacity-0 text-sm p-2 w-11/12">
                     Meu foco principal é auxiliar pessoas com patologias ou condições clínicas a atingirem seus objetivos. Principalmente aqueles que almejam o emagrecimento, a reabilitação física e a melhoria da qualidade de vida.
