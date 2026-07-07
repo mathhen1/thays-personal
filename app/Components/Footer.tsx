@@ -41,7 +41,7 @@ const Footer = () => {
                 </div>
 
                 <div className="flex justify-center w-1/2">
-                    <img src="thays-foto.jpg" alt="" className="w-2/3 border-2 rounded-full"/>
+                    <img src="thays-foto.jpg" alt="" className="w-2/3 sm:w-1/3 border-2 rounded-full" />
                 </div>
             </div>
 
@@ -98,7 +98,7 @@ const Footer = () => {
 
             <div className="reveal opacity-0 flex flex-col items-center w-full">
 
-                <img src="thays-logo1.png" alt="" className="reveal opacity-0 w-2/3" />
+                <img src="thays-logo1.png" alt="" className="reveal opacity-0 w-2/3 sm:w-1/3" />
                 <p className="reveal opacity-0 font-black text-fuchsia-800 mb-1">
                     Developed by Mathhen &#59;&#41;
                 </p>

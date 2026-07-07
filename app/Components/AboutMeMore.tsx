@@ -17,7 +17,7 @@ const AboutMeMore = () => {
                     Meu foco principal é auxiliar pessoas com patologias ou condições clínicas a atingirem seus objetivos. Principalmente aqueles que almejam o emagrecimento, a reabilitação física e a melhoria da qualidade de vida.
                 </h4>
 
-                <img src="thays1.jpg" alt="" className="reveal opacity-0 rounded-full border-2 w-2/3" />
+                <img src="thays1.jpg" alt="" className="reveal opacity-0 rounded-full border-2 w-2/3 sm:w-1/4" />
 
             </div>
 

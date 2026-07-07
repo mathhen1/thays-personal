@@ -1,8 +1,9 @@
+import { goToUri } from "../Utils/funcs"
 import { linkWppSimple } from "../Utils/links"
 
 const Achieves = () => {
 
-    const card = `w-11/12 flex overflow-x-auto flex-shrink-0 
+    const card = `w-11/12 sm:w-1/4 flex overflow-x-auto flex-shrink-0 
     self-stretch snap-center snap-always
     rounded-lg border-3`
 
@@ -46,22 +47,22 @@ const Achieves = () => {
 
             </div>
 
-            <h1 className="reveal opacity-0 w-10/12 tracking-tight text-base font-semibold text-center 
+            <h1 className="reveal opacity-0 w-10/12 sm:w-1/2 tracking-tight text-base font-semibold text-center 
                 border p-3 bg-gradient-to-r from-fuchsia-500 via-fuchsia-600 to-purple-500 rounded-md
                 text-white mt-2">
                 O próximo pode ser você
             </h1>
 
-            <h1 className="reveal opacity-0 w-10/12 p-3 tracking-tight text-base font-extrabold text-center
+            <h1 className="reveal opacity-0 w-10/12 sm:w-1/2 p-3 tracking-tight text-base font-extrabold text-center
                 border-2 border-b-3 border-l-3 border-black bg-fuchsia-200 text-purple-700">
                 O que está esperando?
             </h1>
 
-            <a href={linkWppSimple} target="_blank"
-            className="reveal opacity-0 w-10/12 tracking-wider text-base font-black text-center 
-            rounded-4xl border p-3 bg-emerald-500 text-white">
+            <span onClick={() => goToUri(linkWppSimple)}
+                className="reveal opacity-0 hover:cursor-pointer w-10/12 sm:w-1/2 tracking-wider text-base font-black text-center 
+                rounded-4xl border p-3 bg-emerald-500 text-white">
                 Entre em contato
-            </a>
+            </span>
 
             <div className="reveal opacity-0 flex flex-col items-center bg-purple-100">
                 <span className="reveal opacity-0 w-full border-b border-purple-500"></span>
@@ -71,7 +72,7 @@ const Achieves = () => {
                     Transformando vidas através do movimento e da saúde
                 </h3>
 
-                <img src="thays-logo1.png" alt="" className="reveal opacity-0 w-1/2" />
+                <img src="thays-logo1.png" alt="" className="reveal opacity-0 w-1/2 sm:w-1/3" />
 
                 <span className="reveal opacity-0 w-full border-b border-purple-500"></span>
             </div>

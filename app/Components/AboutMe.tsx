@@ -1,3 +1,4 @@
+import { goToUri } from "../Utils/funcs"
 import { linkEmail, linkIconEmail, linkIconEmailBlack, linkIconInsta, linkIconInstaBlack, linkIconLinkedin, linkIconWpp, linkInsta, linkLinkedin, linkWppSimple } from "../Utils/links"
 
 const AboutMe = () => {
@@ -8,7 +9,7 @@ const AboutMe = () => {
                 Olá, sou <span className="reveal opacity-0 text-fuchsia-900 font-black tracking-wide">Thays Helena</span>
             </h1>
 
-            <img src="thays-profile.jpg" alt="" className="animate-opacity rounded-full w-3/4 border-3 border-fuchsia-800" />
+            <img src="thays-profile.jpg" alt="" className="animate-opacity rounded-full w-3/4 sm:w-1/4 border-3 border-fuchsia-800" />
 
             <h2 className="reveal opacity-0 text-base w-10/12 font-black tracking-wide text-center text-fuchsia-950">
                 Personal Trainer e Especialista em exercício clínico
@@ -21,34 +22,34 @@ const AboutMe = () => {
                     Você busca evolução física ou melhoria na saúde?
                 </h2>
 
-                <a href={linkWppSimple} target="_blank"
-                    className="reveal opacity-0 text-base border-2 border-black rounded-md p-3 w-10/12 
+                <span onClick={() => goToUri(linkWppSimple)}
+                    className="reveal opacity-0 hover:cursor-pointer text-base border-2 border-black rounded-md p-3 w-10/12 
                     text-center font-extrabold tracking-wider text-white bg-purple-500">
                     <span className="animate-pulse">
                         Fale comigo
                     </span>
-                </a>
+                </span>
 
             </div>
 
             {/* Links Rapidos */}
 
             <ul className="flex flex-row gap-5 text-center font-semibold tracking-wide pb-3">
-                <a href={linkWppSimple} className="reveal opacity-0 flex flex-col items-center gap-1">
+                <span onClick={() => goToUri(linkWppSimple)} className="hover:cursor-pointer reveal opacity-0 flex flex-col items-center gap-1">
                     <img src={linkIconWpp} alt="" className="w-10 h-10" />
-                </a>
+                </span>
 
-                <a href={linkInsta} className="reveal opacity-0 flex flex-col items-center gap-1">
+                <span onClick={() => goToUri(linkInsta)} className="hover:cursor-pointer reveal opacity-0 flex flex-col items-center gap-1">
                     <img src={linkIconInsta} alt="" className="w-10 h-10" />
-                </a>
+                </span>
 
-                <a href={linkEmail} className="reveal opacity-0 flex flex-col items-center gap-1">
+                <span onClick={() => goToUri(linkEmail)} className="hover:cursor-pointer reveal opacity-0 flex flex-col items-center gap-1">
                     <img src={linkIconEmail} alt="" className="w-10 h-10" />
-                </a>
+                </span>
 
-                <a href={linkLinkedin} className="reveal opacity-0 flex flex-col items-center gap-1">
+                <span onClick={() => goToUri(linkLinkedin)} className="hover:cursor-pointer reveal opacity-0 flex flex-col items-center gap-1">
                     <img src={linkIconLinkedin} alt="" className="w-10 h-10" />
-                </a>
+                </span>
             </ul>
 
             {/* <span className="w-full border-b border-purple-500"></span>

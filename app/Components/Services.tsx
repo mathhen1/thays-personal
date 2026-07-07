@@ -17,56 +17,60 @@ const Services = () => {
                 Conheça mais do meu trabalho
             </h2>
 
-            <div className="reveal opacity-0 border p-3 text-lg w-10/12 text-center 
+            <div className="flex flex-col gap-3 items-center sm:grid sm:grid-cols-2 sm:justify-items-center sm:items-stretch sm:w-11/12">
+
+                <div className="reveal opacity-0 border p-3 text-lg w-10/12 text-center 
                 rounded-xl border-b-4 bg-purple-100
                 flex flex-col items-center gap-3">
 
-                <h2 className="reveal opacity-0 font-extrabold text-fuchsia-800 tracking-wide">
-                    Treinamento Personalizado para Patologias Clinicas
-                </h2>
-                <p className="reveal opacity-0 text-xs w-10/12 text-black font-normal tracking-tighter">
-                    &bull; Protocolo para pessoas com diabetes, hipertensão,
-                    obesidade e outras condições.
-                </p>
+                    <h2 className="reveal opacity-0 font-extrabold text-fuchsia-800 tracking-wide">
+                        Treinamento Personalizado para Patologias Clinicas
+                    </h2>
+                    <p className="reveal opacity-0 text-xs w-10/12 text-black font-normal tracking-tighter">
+                        &bull; Protocolo para pessoas com diabetes, hipertensão,
+                        obesidade e outras condições.
+                    </p>
 
-            </div>
+                </div>
 
-            <div className="reveal opacity-0 border p-3 text-lg w-10/12 text-center 
+                <div className="reveal opacity-0 border p-3 text-lg w-10/12 text-center 
                 rounded-xl border-b-4 bg-purple-100
                 flex flex-col items-center gap-3">
 
-                <h2 className="reveal opacity-0 font-extrabold text-fuchsia-800 tracking-wide">
-                    Reabilitação Física
-                </h2>
-                <p className="reveal opacity-0 text-xs w-10/12 text-black font-normal tracking-tighter">
-                    &bull; Treinos para recuperar mobilidade, força e equilíbrio após lesões ou cirurgias.
-                </p>
+                    <h2 className="reveal opacity-0 font-extrabold text-fuchsia-800 tracking-wide">
+                        Reabilitação Física
+                    </h2>
+                    <p className="reveal opacity-0 text-xs w-10/12 text-black font-normal tracking-tighter">
+                        &bull; Treinos para recuperar mobilidade, força e equilíbrio após lesões ou cirurgias.
+                    </p>
 
-            </div>
+                </div>
 
-            <div className="reveal opacity-0 border p-3 text-lg w-10/12 text-center 
+                <div className="reveal opacity-0 border p-3 text-lg w-10/12 text-center 
                 rounded-xl border-b-4 bg-purple-100
                 flex flex-col items-center gap-3">
 
-                <h2 className="reveal opacity-0 font-extrabold text-fuchsia-800 tracking-wide">
-                    Programa de Emagrecimento
-                </h2>
-                <p className="reveal opacity-0 text-xs w-10/12 text-black font-normal tracking-tighter">
-                    &bull; Acompanhamento voltado à perda de peso de forma saudável e sustentável.
-                </p>
+                    <h2 className="reveal opacity-0 font-extrabold text-fuchsia-800 tracking-wide">
+                        Programa de Emagrecimento
+                    </h2>
+                    <p className="reveal opacity-0 text-xs w-10/12 text-black font-normal tracking-tighter">
+                        &bull; Acompanhamento voltado à perda de peso de forma saudável e sustentável.
+                    </p>
 
-            </div>
+                </div>
 
-            <div className="reveal opacity-0 border p-3 text-lg w-10/12 text-center 
+                <div className="reveal opacity-0 border p-3 text-lg w-10/12 text-center 
                 rounded-xl border-b-4 bg-purple-100
                 flex flex-col items-center gap-3">
 
-                <h2 className="reveal opacity-0 font-extrabold text-fuchsia-800 tracking-wide">
-                    Treinamento Funcional
-                </h2>
-                <p className="reveal opacity-0 text-xs w-10/12 text-black font-normal tracking-tighter">
-                    &bull; Foco em melhorar o condicionamento físico, postura e fortalecimento muscular.
-                </p>
+                    <h2 className="reveal opacity-0 font-extrabold text-fuchsia-800 tracking-wide">
+                        Treinamento Funcional
+                    </h2>
+                    <p className="reveal opacity-0 text-xs w-10/12 text-black font-normal tracking-tighter">
+                        &bull; Foco em melhorar o condicionamento físico, postura e fortalecimento muscular.
+                    </p>
+
+                </div>
 
             </div>
 
