@@ -18,7 +18,7 @@ const NavBar = () => {
     }
 
     return (
-        <div className="animate-opacity relative sticky z-10 top-0 w-screen flex flex-row text-fuchsia-100 border-b-2 border-black bg-purple-800 h-full">
+        <div className="animate-opacity relative sticky z-10 top-0 w-screen flex flex-row text-fuchsia-100 border-b-2 border-black bg-purple-800 h-full lg:items-center lg:gap-5">
 
             <a href="" className="reveal opacity-0 flex-1 flex-col font-bold tracking-wide text-3xl p-2 pl-3">
                 <p className="reveal opacity-0 ">
@@ -29,17 +29,41 @@ const NavBar = () => {
                 </p>
             </a>
 
-            <button className="reveal opacity-0 p-2 font-black flex-none pr-8"
+            <div className="hidden lg:flex flex-2 text-sm gap-5">
+                <a href="#home" >
+                    Inicio
+                </a>
+                <a href="#about-me" >
+                    Sobre mim
+                </a>
+                <a href="#results" >
+                    Resultados
+                </a>
+                <a href="#services" >
+                    Serviços
+                </a>
+                <a href="#team-th" >
+                    TeamTH
+                </a>
+                <a href="#experience" >
+                    Experiência
+                </a>
+                <a href="#contact" >
+                    Contato
+                </a>
+            </div>
+
+            <button className="reveal opacity-0 p-2 font-black flex-none pr-8 lg:hidden "
                 onClick={handleMenu}>
                 <Menu />
             </button>
 
-            <div className={verifyMenu + " text-black absolute z-20 w-full h-screen flex flex-col items-center backdrop-blur"}>
+            <div className={verifyMenu + " text-black absolute z-20 w-full h-screen flex flex-col items-center backdrop-blur lg:hidden "}>
 
                 <div className="absolute top-0 right-0 w-8/12 
                 flex flex-col items-center gap-2
                 border-2 bg-purple-400 h-screen">
-                    <X onClick={handleMenu} className="mt-2"/>
+                    <X onClick={handleMenu} className="mt-2" />
                     <span className="w-3/4 border"></span>
                     <img src="thays-full.jpg" alt="" className="rounded-full w-1/2" />
                     <a href="#home" onClick={() => setMenuIsOpen(false)}>
@@ -59,6 +83,9 @@ const NavBar = () => {
                     </a>
                     <a href="#experience" onClick={() => setMenuIsOpen(false)}>
                         Experiência
+                    </a>
+                    <a href="#contact" onClick={() => setMenuIsOpen(false)}>
+                        Contato
                     </a>
                     <span className="w-3/4 border"></span>
                     <img src="thays-logo2.png" alt="" className="w-3/4 brightness-0" />
