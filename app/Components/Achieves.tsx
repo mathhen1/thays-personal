@@ -3,7 +3,7 @@ import { linkWppSimple } from "../Utils/links"
 
 const Achieves = () => {
 
-    const card = `w-11/12 sm:w-1/4 flex overflow-x-auto flex-shrink-0 
+    const card = `w-11/12 sm:w-1/4 lg:w-1/5 flex overflow-x-auto flex-shrink-0 
     self-stretch snap-center snap-always
     rounded-lg border-3`
 
@@ -23,7 +23,7 @@ const Achieves = () => {
             {/* imagens resultados */}
 
             <div className="reveal opacity-0 relative flex flex-row items-stretch w-full h-full gap-2 
-            scrollbar-none overflow-x-auto snap-x snap-mandatory">
+            scrollbar-none overflow-x-auto snap-x snap-mandatory lg:justify-center">
 
                 <div className={card}>
                     <img src="result1.jpg" alt="" className="object-fill pointer-events-none" />
@@ -37,8 +37,27 @@ const Achieves = () => {
                     <img src="result3.jpg" alt="" className="object-fill pointer-events-none" />
                 </div>
 
+                <div className={card + " lg:hidden"}>
+                    <img src="result4.jpg" alt="" className="object-fill pointer-events-none" />
+                </div>
+
+                <div className={card + " lg:hidden"}>
+                    <img src="result6.jpg" alt="" className="object-fill pointer-events-none" />
+                </div>
+
+                <div className={card + " lg:hidden"}>
+                    <img src="result5.jpg" alt="" className="object-fill pointer-events-none" />
+                </div>
+
+            </div>
+
+            <div className="reveal opacity-0 hidden lg:flex flex-row items-stretch w-full h-full gap-2 justify-center">
                 <div className={card}>
                     <img src="result4.jpg" alt="" className="object-fill pointer-events-none" />
+                </div>
+
+                <div className={card}>
+                    <img src="result6.jpg" alt="" className="object-fill pointer-events-none" />
                 </div>
 
                 <div className={card}>
@@ -47,19 +66,19 @@ const Achieves = () => {
 
             </div>
 
-            <h1 className="reveal opacity-0 w-10/12 sm:w-1/2 tracking-tight text-base font-semibold text-center 
+            <h1 className="reveal opacity-0 w-10/12 sm:w-1/2 lg:w-1/3 tracking-tight text-base font-semibold text-center 
                 border p-3 bg-gradient-to-r from-fuchsia-500 via-fuchsia-600 to-purple-500 rounded-md
                 text-white mt-2">
                 O próximo pode ser você
             </h1>
 
-            <h1 className="reveal opacity-0 w-10/12 sm:w-1/2 p-3 tracking-tight text-base font-extrabold text-center
+            <h1 className="reveal opacity-0 w-10/12 sm:w-1/2 lg:w-1/3 p-3 tracking-tight text-base font-extrabold text-center
                 border-2 border-b-3 border-l-3 border-black bg-fuchsia-200 text-purple-700">
                 O que está esperando?
             </h1>
 
             <span onClick={() => goToUri(linkWppSimple)}
-                className="reveal opacity-0 hover:cursor-pointer w-10/12 sm:w-1/2 tracking-wider text-base font-black text-center 
+                className="reveal opacity-0 hover:cursor-pointer w-10/12 sm:w-1/2 lg:w-1/3 tracking-wider text-base font-black text-center 
                 rounded-4xl border p-3 bg-emerald-500 text-white">
                 Entre em contato
             </span>

@@ -36,7 +36,9 @@ const Footer = () => {
                         <a href="#experience" className="reveal2 opacity-0">
                             &#45; Experiência
                         </a>
-
+                        <a href="#contact" className="reveal2 opacity-0">
+                            &#45; Contato
+                        </a>
                     </ul>
                 </div>
 

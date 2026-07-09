@@ -78,7 +78,7 @@ const Services = () => {
 
             <div className="reveal opacity-0 w-full text-center border-t border-b p-2 italic bg-pink-100
             text-lg text-black font-thin flex justify-center">
-                <h2 className="reveal opacity-0 w-10/12 tracking-tight">
+                <h2 className="reveal opacity-0 w-10/12 lg:w-1/2 tracking-tight lg:p-2">
                     O exercício físico é uma ferramenta poderosa para recuperação e
                     prevenção de doenças, mas precisa ser feito
                     com planejamento e cuidado.

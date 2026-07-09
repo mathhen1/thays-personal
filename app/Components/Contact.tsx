@@ -3,7 +3,7 @@ import { linkEmail, linkIconEmail, linkIconInsta, linkIconLinkedin, linkIconWpp,
 
 const Contact = () => {
     return (
-        <div className="reveal opacity-0 flex flex-col gap-3 items-center bg-pink-200">
+        <div id="contact" className="reveal opacity-0 flex flex-col gap-3 items-center bg-pink-200">
 
             <span className="reveal opacity-0 border-t w-full"></span>
 
