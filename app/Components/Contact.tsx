@@ -17,7 +17,7 @@ const Contact = () => {
 
             <a onClick={() => goToUri(linkInsta)}
                 className="reveal opacity-0 hover:cursor-pointer flex flex-row gap-2 justify-center text-base
-                            p-3 border-3 border-b-6 border-l-6 w-2/3 
+                            p-3 border-3 border-b-6 border-l-6 w-2/3 lg:w-1/4 
                             text-center rounded-4xl bg-fuchsia-200 items-center">
                 <img src={linkIconInsta} alt="" className="w-5" />
                 <h3 className="animate-pulse font-black">
@@ -27,7 +27,7 @@ const Contact = () => {
 
             <a onClick={() => goToUri(linkWppSimple)}
                 className="reveal opacity-0 hover:cursor-pointer flex flex-row gap-2 justify-center text-base
-                            p-3 border-3 border-b-6 border-l-6 w-2/3 
+                            p-3 border-3 border-b-6 border-l-6 w-2/3 lg:w-1/4 
                             text-center rounded-4xl bg-fuchsia-200 items-center">
                 <img src={linkIconWpp} alt="" className="w-5" />
                 <h3 className="animate-pulse font-black">
@@ -37,7 +37,7 @@ const Contact = () => {
 
             <a onClick={() => goToUri(linkEmail)}
                 className="reveal opacity-0 hover:cursor-pointer flex flex-row gap-2 justify-center text-base
-                            p-3 border-3 border-b-6 border-l-6 w-2/3 
+                            p-3 border-3 border-b-6 border-l-6 w-2/3 lg:w-1/4
                             text-center rounded-4xl bg-fuchsia-200 items-center">
                 <img src={linkIconEmail} alt="" className="w-5" />
                 <h3 className="animate-pulse font-black">
@@ -47,7 +47,7 @@ const Contact = () => {
 
             <a onClick={() => goToUri(linkLinkedin)}
                 className="reveal opacity-0 hover:cursor-pointer flex flex-row gap-2 justify-center text-base
-                            p-3 border-3 border-b-6 border-l-6 w-2/3 
+                            p-3 border-3 border-b-6 border-l-6 w-2/3 lg:w-1/4
                             text-center rounded-4xl bg-fuchsia-200 items-center">
                 <img src={linkIconLinkedin} alt="" className="w-5" />
                 <h3 className="animate-pulse font-black">
