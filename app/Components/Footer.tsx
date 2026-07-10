@@ -4,6 +4,9 @@ const Footer = () => {
 
     const actualDate = new Date().getFullYear()
 
+    const sublimeAnimate = "hidden lg:block reveal2 opacity-0 w-0 h-0.5 bg-black transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:w-full"
+    const itemStyle = "group w-max transition duration-300 hover:transition hover:transition-300 hover:text-black"
+
     return (
         <div className="reveal opacity-0 flex flex-col items-center bg-purple-400 border-t-2 max-lg:font-roboto gap-2">
             <div className="reveal opacity-0 flex flex-col items-center gap-2 lg:w-3/4">
@@ -18,26 +21,33 @@ const Footer = () => {
 
                         <ul className="reveal opacity-0 flex flex-col text-sm text-nowrap pl-5 font-black text-violet-900">
 
-                            <a href="#home" className="reveal2 opacity-0">
+                            <a href="#home" className={itemStyle}>
                                 &#45; Inicio
+                                <span className={sublimeAnimate}></span>
                             </a>
-                            <a href="#about-me" className="reveal2 opacity-0">
+                            <a href="#about-me" className={itemStyle}>
                                 &#45; Sobre mim
+                                <span className={sublimeAnimate}></span>
                             </a>
-                            <a href="#results" className="reveal2 opacity-0">
+                            <a href="#results" className={itemStyle}>
                                 &#45; Resultados
+                                <span className={sublimeAnimate}></span>
                             </a>
-                            <a href="#services" className="reveal2 opacity-0">
+                            <a href="#services" className={itemStyle}>
                                 &#45; Serviços
+                                <span className={sublimeAnimate}></span>
                             </a>
-                            <a href="#team-th" className="reveal2 opacity-0">
+                            <a href="#team-th" className={itemStyle}>
                                 &#45; Team TH
+                                <span className={sublimeAnimate}></span>
                             </a>
-                            <a href="#experience" className="reveal2 opacity-0">
+                            <a href="#experience" className={itemStyle}>
                                 &#45; Experiência
+                                <span className={sublimeAnimate}></span>
                             </a>
-                            <a href="#contact" className="reveal2 opacity-0">
+                            <a href="#contact" className={itemStyle}>
                                 &#45; Contato
+                                <span className={sublimeAnimate}></span>
                             </a>
                         </ul>
                     </div>

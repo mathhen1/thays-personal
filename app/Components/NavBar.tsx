@@ -17,6 +17,9 @@ const NavBar = () => {
         }
     }
 
+    const sublimeAnimate = "hidden lg:block w-0 h-0.5 bg-black transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:w-full"
+    const itemStyle = "group transition duration-300 hover:transition hover:transition-300 hover:text-black"
+
     return (
         <div className="animate-opacity relative sticky z-10 top-0 w-screen flex flex-row text-fuchsia-100 border-b-2 border-black bg-purple-800 h-full lg:items-center lg:gap-5">
 
@@ -30,26 +33,33 @@ const NavBar = () => {
             </a>
 
             <div className="hidden lg:flex flex-2 text-sm gap-5">
-                <a href="#home" >
+                <a href="#home" className={itemStyle} >
                     Inicio
+                    <span className={sublimeAnimate}></span>
                 </a>
-                <a href="#about-me" >
+                <a href="#about-me" className={itemStyle} >
                     Sobre mim
+                    <span className={sublimeAnimate}></span>
                 </a>
-                <a href="#results" >
+                <a href="#results" className={itemStyle} >
                     Resultados
+                    <span className={sublimeAnimate}></span>
                 </a>
-                <a href="#services" >
+                <a href="#services" className={itemStyle} >
                     Serviços
+                    <span className={sublimeAnimate}></span>
                 </a>
-                <a href="#team-th" >
+                <a href="#team-th" className={itemStyle} >
                     TeamTH
+                    <span className={sublimeAnimate}></span>
                 </a>
-                <a href="#experience" >
+                <a href="#experience" className={itemStyle} >
                     Experiência
+                    <span className={sublimeAnimate}></span>
                 </a>
-                <a href="#contact" >
+                <a href="#contact" className={itemStyle} >
                     Contato
+                    <span className={sublimeAnimate}></span>
                 </a>
             </div>
 
