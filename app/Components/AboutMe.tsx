@@ -24,8 +24,9 @@ const AboutMe = () => {
                     </h2>
 
                     <span onClick={() => goToUri(linkWppSimple)}
-                        className="reveal opacity-0 hover:cursor-pointer text-base lg:text-lg border-2 border-black rounded-md p-3 w-10/12 
-                    text-center font-extrabold tracking-wider text-white bg-purple-500">
+                        className="reveal opacity-0 hover:cursor-pointer text-base lg:text-lg border-2 border-black rounded-md p-3 w-10/12 transition duration-500 hover:transition hover:duration-500
+                        text-center font-extrabold tracking-wider text-white bg-purple-500
+                        hover:bg-emerald-500 hover:text-black">
                         <span className="animate-pulse">
                             Fale comigo
                         </span>
@@ -52,6 +53,8 @@ const AboutMe = () => {
                         <img src={linkIconLinkedin} alt="" className="w-10 h-10" />
                     </span>
                 </ul>
+
+                <span className="reveal opacity-0 hidden lg:block h-px border-t border-gray-400 w-2/3"></span>
             </div>
 
             <img src="thays-profile.jpg" alt="" className="animate-opacity rounded-full w-1/3 border-3 border-fuchsia-800 hidden lg:block" />

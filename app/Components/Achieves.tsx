@@ -78,8 +78,8 @@ const Achieves = () => {
             </h1>
 
             <span onClick={() => goToUri(linkWppSimple)}
-                className="reveal opacity-0 hover:cursor-pointer w-10/12 sm:w-1/2 lg:w-1/3 tracking-wider text-base font-black text-center 
-                rounded-4xl border p-3 bg-emerald-500 text-white">
+                className="reveal opacity-0 hover:cursor-pointer w-10/12 sm:w-1/2 lg:w-1/3 tracking-wider text-base font-black text-center transition duration-500 hover:transition hoverduration-500
+                hover:bg-amber-500 hover:text-black rounded-4xl border p-3 bg-emerald-500 text-white">
                 Entre em contato
             </span>
 

@@ -96,7 +96,9 @@ const MoreTeamTH = () => {
             <span onClick={() => goToUri(linkWpp)}
                 className="reveal opacity-0 max-lg:font-roboto hover:cursor-pointer flex flex-row gap-1 justify-center
                 text-base p-3 border rounded-2xl w-10/12 lg:w-1/4 lg:rounded-4xl bg-black mt-2 mb-2
-                tracking-widest text-center font-black text-white border border-black">
+                tracking-widest text-center font-black text-white border border-black
+                transition duration-500 hover:transition hover:duration-500
+                hover:bg-gray-400 hover:text-black">
                 <span className="animate-pulse">Faça parte do meu time</span>
                 <ArrowUpRight className="animate-pulse" />
             </span>
